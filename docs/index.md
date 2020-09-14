@@ -20,7 +20,7 @@ I created it because as a UI/UX designer I often have to deal with SVG images at
 
 What's wrong with these popular image viewers? I created a very simple SVG file, TEST.svg, 400x400 px, with 3 simple shapes — a white star, a semi-transparent violet circle, and an empty rectangle with a semi-transparent non-scaling stroke. A picture is worth a thousand words, see how the viewers renders this file. Feel the difference:
 
-![Smart SVG Viewer vs Popular image viewers](https://github.com/sla80/SmartSvgViewer/blob/master/comparison.png?raw=true)
+![Smart SVG Viewer vs Popular image viewers](https://github.com/sla80/SmartSvgViewer/blob/master/docs/comparison.png?raw=true)
 
 If you work with SVG files, then of course you are aware of this trouble. BTW, I reported this issue to the tech support of both of these viewers, as well as to the developer of the library they both use to render SVG.
 
