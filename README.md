@@ -4,6 +4,7 @@
 I couldn't find any working SVG viewer with Thumbnail Gallery for Windows. Most popular viewers don't work:
 
 ![Smart SVG Viewer vs Popular image viewers](https://github.com/sla80/SmartSvgViewer/blob/master/docs/images/comparison.png?raw=true)
+
 [TEST.svg](/docs/images/TEST.svg) image content:
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
@@ -12,7 +13,6 @@ I couldn't find any working SVG viewer with Thumbnail Gallery for Windows. Most 
   <circle cx="138" cy="292" r="72" fill="#896CE6" opacity="0.5"/>
 </svg>
 ```
-</details>
 
 ### Features
 This app is an Alpha build, but it is already usable for viewing SVG images. Here is a list of its features (some are unique):
