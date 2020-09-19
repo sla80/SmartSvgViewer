@@ -15,7 +15,7 @@ I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular view
 ```
 
 ### Features
-This app is an Alpha build, but it is already usable for viewing SVG images. Here is a list of its features (some are unique):
+“Smart SVG Viewer” is an Alpha build, but it is already usable for viewing SVG images. Here is a list of its features (some are unique):
 - Shows SVG and SVGZ images with Alpha channel (transparency), correct pixel size, aspect ratio and scale.
 - Thumbnail Gallery, Folder Tree, Quick Search box.
 - Supports High-DPI screen scaling. The application window is scaled to match the screen DPI scaling, but image preview and thumbnails renders on device physical pixels, at a higher resolution and perfectly sharp (no blurring).
