@@ -5,7 +5,7 @@ I couldn't find any working SVG viewer with Thumbnail Gallery for Windows. Most 
 
 ![Smart SVG Viewer vs Popular image viewers](https://github.com/sla80/SmartSvgViewer/blob/master/docs/comparison.png?raw=true)
 <details>
-  <summary>[TEST.svg](https://github.com/sla80/SmartSvgViewer/blob/master/docs/TEST.svg?raw=true) image content</summary>
+  <summary>TEST.svg image content</summary>
   ```xml
   <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
     <path fill="#FFF" d="M 281 187 L 208 174 L 156 228 L 145 154 L 78 121 L 145 88 L 156 14 L 208 67 L 281 55 L 246 121 Z"/>
@@ -14,6 +14,7 @@ I couldn't find any working SVG viewer with Thumbnail Gallery for Windows. Most 
   </svg>
   ```
 </details>
+
 ### Features
 This app is an Alpha build, but it is already usable for viewing SVG images. Here is a list of its features (some are unique):
 - Shows SVG and SVGZ images with Alpha channel (transparency), correct pixel size, aspect ratio and scale.
@@ -35,7 +36,8 @@ Supported operating systems:
 - Windows 10 (May 2019 Update, or newer) or
 - Windows 7, 8 .8.1, 10 (older versions) with [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) (or newer) installed.
 ### How to install
-Just download the installation package [SmartSvgViewer Installer.msi](https://github.com/sla80/SmartSvgViewer/raw/master/SmartSvgViewer%20Installer.msi "SmartSvgViewer Installer.msi") and run it. Your Windows will warn you that this package has an “Unknown Publisher”, just skip this warning. Soon I will receive a certificate for installer signing to make this warning go away.
+- Download the installation package [SmartSvgViewer Installer.msi](https://github.com/sla80/SmartSvgViewer/raw/master/SmartSvgViewer%20Installer.msi "SmartSvgViewer Installer.msi") (440 KB).
+- Install it. Your Windows will warn you that this MSI package has an “Unknown Publisher”, just skip this warning. Soon I will receive a certificate for installer signing to make this warning go away.
 ### How this project started
 As a UI/UX designer I often have to deal with SVG images at my job, and popular image viewers such as “[IrfanView](https://www.irfanview.com/)” and “[XnView](https://www.xnview.com/en/xnview/)” cannot display the SVG images properly. If you work with SVG files, then of course you are aware of this trouble. BTW, I reported this issue to the tech support of both of these viewers, as well as to the developer of the library they both use to render SVG.
 
