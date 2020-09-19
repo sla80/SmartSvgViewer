@@ -8,3 +8,7 @@ $header-bg-color-secondary: #155799 !default;
 $section-headings-color: #2E9378;
 
 @import 'jekyll-theme-cayman';
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2E9378;
+}
