@@ -3,16 +3,15 @@
 ### Why create another image viewer?
 I couldn't find any working SVG viewer with Thumbnail Gallery for Windows. Most popular viewers don't work:
 
-![Smart SVG Viewer vs Popular image viewers](https://github.com/sla80/SmartSvgViewer/blob/master/docs/comparison.png?raw=true)
-<details>
-  <summary>TEST.svg image content (click here to see)</summary>
-  ```
-  <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
-    <path fill="#FFF" d="M 281 187 L 208 174 L 156 228 L 145 154 L 78 121 L 145 88 L 156 14 L 208 67 L 281 55 L 246 121 Z"/>
-    <rect x="171" y="200" width="150" height="179" fill="none" stroke="#000" stroke-width="10" stroke-opacity="0.25" vector-effect="non-scaling-stroke"/>
-    <circle cx="138" cy="292" r="72" fill="#896CE6" opacity="0.5"/>
-  </svg>
-  ```
+![Smart SVG Viewer vs Popular image viewers](https://github.com/sla80/SmartSvgViewer/blob/master/docs/images/comparison.png?raw=true)
+[TEST.svg](/docs/images/TEST.svg) image content:
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+  <path fill="#FFF" d="M 281 187 L 208 174 L 156 228 L 145 154 L 78 121 L 145 88 L 156 14 L 208 67 L 281 55 L 246 121 Z"/>
+  <rect x="171" y="200" width="150" height="179" fill="none" stroke="#000" stroke-width="10" stroke-opacity="0.25" vector-effect="non-scaling-stroke"/>
+  <circle cx="138" cy="292" r="72" fill="#896CE6" opacity="0.5"/>
+</svg>
+```
 </details>
 
 ### Features
