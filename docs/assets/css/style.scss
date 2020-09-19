@@ -1,10 +1,14 @@
 ---
 ---
 
-// Headers
 $header-bg-color: #2E9378 !default;
 $header-bg-color-secondary: #2E9378 !default;
-// Text
 $section-headings-color: #2E9378;
 
 @import 'jekyll-theme-cayman';
+
+body {
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
