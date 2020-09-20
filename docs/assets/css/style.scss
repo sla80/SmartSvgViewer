@@ -1,0 +1,53 @@
+---
+---
+
+$header-bg-color: #2E9378;
+$header-bg-color-secondary: #2E9378;
+$section-headings-color: #2E9378;
+
+@import 'jekyll-theme-cayman';
+
+body {
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+.main-content {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+  }
+}
+
+.page-intro {
+  color: $header-heading-color;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+
+  @include large {
+    padding: 5rem 6rem;
+  }
+
+  @include medium {
+    padding: 3rem 4rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+  }
+
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
