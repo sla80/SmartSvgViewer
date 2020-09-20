@@ -25,12 +25,16 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         <a href="{{ site.installer_download_url }}" class="btn">Download Installer</a>
-        <a href="{{ #features }}" class="btn" id="scrollDownToContent">More Info</a>
+        <a href="#features" class="btn" id="scrollDownToContent">More Info</a>
         <script>
-            $('#scrollDownToContent').click(function(event) {
-                event.preventDefault();
-                var n = $(document).height();
-                $('html, body').animate({ scrollTop: n }, 500);
+            $(document).ready(function() {
+                $('#scrollDownToContent').click(function(event) {
+                    event.preventDefault();
+                    var $anchor = $(this);
+                    $('html, body').animate({
+                        scrollTop: ($($anchor.attr('href')).offset().top)
+                    }, 300);
+                });            
             });            
         </script>
     </header>
