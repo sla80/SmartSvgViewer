@@ -5,7 +5,7 @@ I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular view
 
 ![Smart SVG Viewer vs Popular image viewers](https://github.com/sla80/SmartSvgViewer/blob/master/docs/images/comparison.png?raw=true)
 
-[TEST.svg](/docs/images/TEST.svg) image content:
+[TEST.svg](https://github.com/sla80/SmartSvgViewer/blob/master/docs/images/TEST.svg) image content:
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
   <path fill="#FFF" d="M 281 187 L 208 174 L 156 228 L 145 154 L 78 121 L 145 88 L 156 14 L 208 67 L 281 55 L 246 121 Z"/>
