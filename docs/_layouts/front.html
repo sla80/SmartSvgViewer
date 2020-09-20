@@ -18,26 +18,26 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <link rel="icon" sizes="16x16 32x32" href="{{ '/images/favicon.ico' | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("[id^=\"smoothScrollTo\"]").click(function(event) {
+          event.preventDefault();
+          var $anchor = $(this);
+          $("html, body").animate({
+            scrollTop: ($($anchor.attr("href")).offset().top)
+          }, 300);
+        });            
+      });            
+    </script>
   </head>
   <body>
     <header class="page-intro">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         <a href="{{ site.installer_download_url }}" class="btn">Download Installer</a>
-        <a href="#content" class="btn" id="scrollDownToContent">Find Out More</a>
-        <script>
-            $(document).ready(function() {
-                $('#scrollDownToContent').click(function(event) {
-                    event.preventDefault();
-                    var $anchor = $(this);
-                    $('html, body').animate({
-                        scrollTop: ($($anchor.attr('href')).offset().top)
-                    }, 300);
-                });            
-            });            
-        </script>
+        <a href="#content" class="btn" id="smoothScrollToContent">Find Out More</a>
     </header>
 
     <main id="content" class="main-content" role="main">
