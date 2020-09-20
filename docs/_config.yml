@@ -1,3 +1,10 @@
 remote_theme: CloudCannon/hydra-jekyll-template
 title: Smart SVG Viewer
 description: SVG image viewer with Thumbnail Gallery for UI/UX Designers, Web Developers, Graphics Designers
+
+plugins:
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
