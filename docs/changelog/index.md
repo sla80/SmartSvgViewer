@@ -1,6 +1,6 @@
 ---
 title: Smart SVG Viewer / Changelog
-layout: front
+layout: default
 ---
 
 # Changelog
