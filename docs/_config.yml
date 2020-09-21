@@ -4,7 +4,7 @@ description: SVG image viewer with Thumbnail Gallery for UI/UX Designers, Web De
 show_project_link: false
 show_downloads: false
 
-installer_version: 0.5.0 alpha (build 1042)
+installer_version: 0.5.0 alpha (build 1175)
 installer_filesize_kb: 440
 executable_filesize_kb: 80
 installer_filename: SmartSvgViewerSetup.msi
