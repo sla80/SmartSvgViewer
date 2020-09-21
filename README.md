@@ -35,7 +35,7 @@ Supported operating systems:
 - Windows 10 (May 2019 Update, or newer) or
 - Windows 7, 8 .8.1, 10 (older versions) with [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) (or newer) installed.
 ### How to install
-- Download the installation package [SmartSvgViewer Installer.msi](https://github.com/sla80/SmartSvgViewer/raw/master/SmartSvgViewer%20Installer.msi "SmartSvgViewer Installer.msi") (440 KB).
+- Download the installation package [SmartSvgViewerSetup.msi](https://github.com/sla80/SmartSvgViewer/raw/master/SmartSvgViewerSetup.msi) (440 KB).
 - Install it. Your Windows will warn you that this MSI package has an “Unknown Publisher”, just skip this warning. Soon I will receive a certificate for installer signing to make this warning go away.
 ### How this project started
 As a UI/UX designer I often have to deal with SVG images at my job, and popular image viewers such as “[IrfanView](https://www.irfanview.com/)” and “[XnView](https://www.xnview.com/en/xnview/)” cannot display the SVG images properly. If you work with SVG files, then of course you are aware of this trouble. BTW, I reported this issue to the tech support of both of these viewers, as well as to the developer of the library they both use to render SVG.

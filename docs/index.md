@@ -1,4 +1,5 @@
 ---
+title: Smart SVG Viewer
 layout: front
 ---
 
@@ -15,7 +16,7 @@ layout: front
 - Supports High-DPI screen scaling. The application window is scaled to match the screen DPI scaling, but image preview and thumbnails renders on device physical pixels, at a higher resolution and perfectly sharp (no blurring).
 - Supports multi-screen systems. When you drag a window to another screen, it adapts to screen DPI.
 - Export to PNG, SVG, SVGZ formats. The ability to export resized PNGs will be added soon.
-- Lightweight. The executable file is now only 80 KB in size (including the 24 KB icon). And the installer is an MSI file, 440 KB.
+- Lightweight. The executable file is now only {{ site.executable_filesize_kb }} KB in size (including the 24 KB icon). And the installer is an MSI file, {{ site.installer_filesize_kb }} KB.
 - Automatic daily check for updates. One-click updates are downloaded, installed and launched in just a few seconds.
 - MIT License. Free of charge for personal and commercial use.
 
@@ -36,7 +37,7 @@ Supported operating systems:
 
 - - - -
 ### How to install
-- Download the installation package [SmartSvgViewer Installer.msi](https://github.com/sla80/SmartSvgViewer/raw/master/SmartSvgViewer%20Installer.msi "SmartSvgViewer Installer.msi") (440 KB).
+- Download the installation package [{ site.installer_filename }}]({{ site.installer_url }} ({{ site.installer_filesize_kb }} KB).
 - Install it. Your Windows will warn you that this MSI package has an “Unknown Publisher”, just skip this warning. Soon I will receive a certificate for installer signing to make this warning go away.
 
 - - - -
