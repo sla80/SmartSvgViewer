@@ -1,5 +1,5 @@
 ---
-title: Smart SVG Viewer / Changelog
+title: Changelog
 layout: default
 ---
 

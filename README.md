@@ -1,5 +1,7 @@
 # Smart SVG Viewer
 “Smart SVG Viewer” is a fast and confortable SVG image viewer with Thumbnail Gallery and Alpha channel support, made for UI/UX Designers, Web Designers, Graphic Designers.
+### [Go to Home page](https://sla80.github.io/SmartSvgViewer/)
+
 ### Why create another image viewer?
 I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular viewers don't work:
 
@@ -21,7 +23,7 @@ I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular view
 - Supports High-DPI screen scaling. The application window is scaled to match the screen DPI scaling, but image preview and thumbnails renders on device physical pixels, at a higher resolution and perfectly sharp (no blurring).
 - Supports multi-screen systems. When you drag a window to another screen, it adapts to screen DPI.
 - Export to PNG, SVG, SVGZ formats. The ability to export resized PNGs will be added soon.
-- Lightweight. The executable file is now only 80 KB in size (including the 24 KB icon). And the installer is an MSI file, 440 KB.
+- Lightweight. The executable file is now only 82 KB in size (including the 24 KB icon). And the installer is an MSI file, 440 KB.
 - Automatic daily check for updates. One-click updates are downloaded, installed and launched in just a few seconds.
 - MIT License. Free of charge for personal and commercial use.
 ### Future plans

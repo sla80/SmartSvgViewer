@@ -37,7 +37,7 @@ Supported operating systems:
 
 - - - -
 ### How to install
-- Download the installation package [{ site.installer_filename }}]({{ site.installer_url }} ({{ site.installer_filesize_kb }} KB).
+- Download the installation package [{ site.installer_filename }]({{ site.installer_url }} ({{ site.installer_filesize_kb }} KB).
 - Install it. Your Windows will warn you that this MSI package has an “Unknown Publisher”, just skip this warning. Soon I will receive a certificate for installer signing to make this warning go away.
 
 - - - -
