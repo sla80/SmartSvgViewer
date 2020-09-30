@@ -7,6 +7,10 @@ layout: front
 
 “Smart SVG Viewer” is a fast and confortable SVG image viewer with Thumbnail Gallery and Alpha channel support, made for UI/UX Designers, Web Designers, Graphic Designers.
 
+## [Download](download)
+## [Download](/download)
+## [Download](/docs/download)
+
 - - - -
 ### Features
 
@@ -28,17 +32,6 @@ layout: front
 - Support SVG Fonts viewing. With ability to export selected glyphs as SVG of course.
 - Ability to view other image formats: PNG, GIF, JPEG, BMP, TGA, DDS, PSD, and maybe some new vector formats. That's it! SVG viewer will be a versatile full-featured image viewer.
 - Implement feature requests.
-
-- - - -
-### System Requirements
-Supported operating systems:
-- Windows 10 (May 2019 Update, or newer) or
-- Windows 7, 8 .8.1, 10 (older versions) with [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) (or newer) installed.
-
-- - - -
-### How to install
-- Download the installation package [{{ site.installer_filename }}]({{ site.installer_url }}) ({{ site.installer_filesize_kb }} KB).
-- Install it. Your Windows will warn you that this MSI package has an “Unknown Publisher”, just skip this warning. Soon I will receive a certificate for installer signing to make this warning go away.
 
 - - - -
 ### Why create another image viewer?
