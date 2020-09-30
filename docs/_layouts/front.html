@@ -40,19 +40,16 @@ ym(67783888, "init", { clickmap:false, trackLinks:true, accurateTrackBounce:true
 </script>
 </head>
 <body>
-  <header class="page-intro">
-    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-    <a href="#content" class="btn" id="smoothScrollToContent">Find Out More</a>
-  </header>
+<header class="page-intro">
+  <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+  <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+  <a href="#content" class="btn" id="smoothScrollToContent">Find Out More</a>
+</header>
 
-  <main id="content" class="main-content">
-    {{ content }}
+<main id="content" class="main-content">
+{{ content }}
 
-    <footer class="site-footer">
-      <span class="site-footer-owner">Copyright (c) 2020 Viacheslav Maliukhin.</span>
-      <span class="site-footer-credits">Repository: <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>/<a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a>. Hosted on <a href="https://pages.github.com">GitHub Pages</a>.</span>
-    </footer>
-  </main>
+{% include footer.html %}
+</main>
 </body>
 </html>
