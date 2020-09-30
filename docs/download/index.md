@@ -4,7 +4,8 @@ layout: default
 ---
 
 # Download
-Ckick here to download MSI installation package:
+Current version: {{ site.installer_version }}
+Click here to download the MSI installation package:
 - [{{ site.installer_filename }}]({{ site.installer_url }}) ({{ site.installer_filesize_kb }} KB)
 
 - - - -

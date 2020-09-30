@@ -2,27 +2,24 @@
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
 <meta charset="UTF-8">
-
 {% if site.google_analytics %}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', '{{ site.google_analytics }}');
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '{{ site.google_analytics }}');
 </script>
 {% endif %}
-
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
-	(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-	m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-	(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-	ym(67783888, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true });
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ym(67783888, "init", { clickmap:false, trackLinks:true, accurateTrackBounce:true });
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/67783888" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-
 {% seo %}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#157878">
@@ -31,17 +28,17 @@
 <link rel="icon" sizes="16x16 32x32" href="{{ '/images/favicon.ico' | relative_url }}">
 </head>
 <body>
-	<header class="page-header">
-		<h1 class="project-name">{{ site.title }}</h1>
-	</header>
+  <header class="page-header">
+    <h1 class="project-name">{{ site.title }}</h1>
+  </header>
 
-	<main id="content" class="main-content">
-		{{ content }}
+  <main id="content" class="main-content">
+    {{ content }}
 
-		<footer class="site-footer">
-			<span class="site-footer-owner">Copyright (c) 2020 Viacheslav Maliukhin.</span>
-			<span class="site-footer-credits">Repository: <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>/<a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a>. Hosted on <a href="https://pages.github.com">GitHub Pages</a>.</span>
-		</footer>
-	</main>
+    <footer class="site-footer">
+      <span class="site-footer-owner">Copyright (c) 2020 Viacheslav Maliukhin.</span>
+      <span class="site-footer-credits">Repository: <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>/<a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a>. Hosted on <a href="https://pages.github.com">GitHub Pages</a>.</span>
+    </footer>
+  </main>
 </body>
 </html>

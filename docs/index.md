@@ -7,9 +7,7 @@ layout: front
 
 “Smart SVG Viewer” is a fast and confortable SVG image viewer with Thumbnail Gallery and Alpha channel support, made for UI/UX Designers, Web Designers, Graphic Designers.
 
-## [Download](download)
-## [Download](/download)
-## [Download](/docs/download)
+## [Download](/SmartSvgViewer/download/)
 
 - - - -
 ### Features
