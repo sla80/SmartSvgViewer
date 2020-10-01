@@ -1,11 +1,11 @@
 theme: jekyll-theme-cayman
 title: Smart SVG Viewer
-description: Free SVG image viewer for Windows,<br/>with Thumbnail Gallery and Alpha channel support
+description: Free SVG image viewer for Windows, with Thumbnail Gallery and Alpha channel support
 show_project_link: false
 show_downloads: false
 
-installer_version: 0.5.0 alpha (build 1220)
-installer_filesize_kb: 440
+installer_version: 0.5.0 alpha (build 1225)
+installer_filesize_kb: 452
 executable_filesize_kb: 87
 installer_filename: SmartSvgViewerSetup.msi
 installer_url: https://github.com/sla80/SmartSvgViewer/raw/master/SmartSvgViewerSetup.msi
