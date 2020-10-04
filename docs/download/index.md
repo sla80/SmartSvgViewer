@@ -17,7 +17,7 @@ Supported operating systems:
 - - - -
 ### How to install
 Download and run the installation package.
-- If your Windows will warn you that this MSI package has an “Unknown Publisher”, just skip this warning.
-- If it will show “Windows protected your PC” window, then click “More info” and “Run anyway” button.
+- If your Windows warns you that this MSI package has an “Unknown Publisher”, just skip this warning.
+- If it shows а “Windows protected your PC” window, then click “More info” and “Run anyway” button.
 
 Soon I will receive a certificate for installer signing to make those warnings go away.
