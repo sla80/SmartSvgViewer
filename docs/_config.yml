@@ -2,7 +2,7 @@ theme: jekyll-theme-cayman
 title: Smart SVG Viewer
 description: Free SVG image viewer for Windows, with Thumbnail Gallery and Alpha channel support
 baseurl: /SmartSvgViewer
-lang: en-US
+lang: en
 yandex_metrika: 67783888
 google_analytics: UA-179561008-1
 show_project_link: false
