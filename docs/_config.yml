@@ -5,8 +5,9 @@ baseurl: /SmartSvgViewer
 lang: en
 yandex_metrika: 67783888
 google_analytics: UA-179561008-1
-show_project_link: false
-show_downloads: false
+
+include:
+ - sitemap.xml
 
 installer_version: 0.5.0 alpha (build 1225)
 installer_filesize_kb: 452
