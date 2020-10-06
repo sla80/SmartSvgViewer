@@ -17,10 +17,11 @@ ym({{ site.yandex_metrika }}, "init", { clickmap:false, trackLinks:true, accurat
 </script>
 {% endif %}
 {% seo %}
+<meta http-equiv="last-modified" content="{{ page.path | file_date | date_to_rfc822 }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#2E9378">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-<link rel="icon" sizes="16x16 32x32" href="{{ '/images/favicon.ico' | relative_url }}">
+<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="{{ '/images/favicon.ico' | relative_url }}">
 <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
 <link rel="apple-touch-icon-precomposed" type="image/svg+xml" href="{{ '/images/favicon-precomposed.svg' | relative_url }}">
