@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sla80.github.io/SmartSvgViewer/sitemap.xml
