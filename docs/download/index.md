@@ -1,5 +1,6 @@
 ---
 title: Download
+description: Download “Smart SVG Viewer” installer for Windows
 layout: default
 ---
 
