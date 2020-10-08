@@ -17,9 +17,13 @@ ym({{ site.yandex_metrika }}, "init", { clickmap:false, trackLinks:true, accurat
 </script>
 {% endif %}
 {% seo %}
-<meta property="og:image" content="{{ site.ogimage.wide.path }}" />
-<meta property="og:image:width" content="{{ site.ogimage.wide.width }}" />
-<meta property="og:image:height" content="{{ site.ogimage.wide.height }}" />
+<meta name="twitter:image:src" content="{{ site.summary_image.path }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title | default: site.title }}" />
+<meta name="twitter:description" content="{{ page.description | default: site.description }}" />
+<meta property="og:image" content="{{ site.summary_image.path }}" />
+<meta property="og:image:width" content="{{ site.summary_image.width }}" />
+<meta property="og:image:height" content="{{ site.summary_image.height }}" />
 <meta name="keywords" content="smart svg viewer, svg viewer with gallery, svg viewer with thumbnails, svg viewer with transparency, transparent svg viewer, free svg viewer, svg viewer, svg, free, gallery, thumbnails, transparency, alpha channel, high dpi, windows, application, download" />
 <meta name="build-timestamp" content="{{ site.time | date_to_xmlschema }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />

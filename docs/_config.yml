@@ -3,11 +3,10 @@ title: Smart SVG Viewer
 description: Free SVG image viewer for Windows, with Thumbnail Gallery and Alpha channel support
 lang: en_US
 logo: https://sla80.github.io/SmartSvgViewer/images/logo.svg
-ogimage:
-  wide:
-    path: https://sla80.github.io/SmartSvgViewer/images/open-graph-image-wide.png
-    width: 1280
-    height: 640
+summary_image:
+  path: https://sla80.github.io/SmartSvgViewer/images/site-summary.png
+  width: 1280
+  height: 640
 
 baseurl: /SmartSvgViewer
 html_lang: en
