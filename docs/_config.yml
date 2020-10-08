@@ -1,7 +1,6 @@
 theme: jekyll-theme-cayman
 title: Smart SVG Viewer
 description: Free SVG image viewer for Windows, with Thumbnail Gallery and Alpha channel support
-author: Viacheslav Maliukhin
 lang: en_US
 logo: https://sla80.github.io/SmartSvgViewer/images/logo.svg
 ogimage:
