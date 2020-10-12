@@ -17,8 +17,8 @@ include:
   - sitemap.xml
   - robots.txt
 
-installer_version: 0.5.0 alpha (build 1225)
-installer_filesize_kb: 452
-executable_filesize_kb: 87
+installer_version: 0.5.0 alpha (build 1302)
+installer_filesize_kb: 444
+executable_filesize_kb: 90
 installer_filename: SmartSvgViewerSetup.msi
 installer_url: https://github.com/sla80/SmartSvgViewer/raw/master/SmartSvgViewerSetup.msi
