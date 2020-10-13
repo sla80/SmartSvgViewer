@@ -16,6 +16,7 @@ google_analytics: UA-179561008-1
 include:
   - sitemap.xml
   - robots.txt
+  - manifest.webmanifest
 
 installer_version: 0.5.0 alpha (build 1302)
 installer_filesize_kb: 444

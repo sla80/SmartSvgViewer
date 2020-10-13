@@ -1,0 +1,16 @@
+{
+	"name": "Smart SVG Viewer",
+	"description": "Free SVG image viewer for Windows, with Thumbnail Gallery and Alpha channel support",
+	"theme_color": "#2E9378",
+	"icons": [
+		{
+			"src": "https://sla80.github.io/SmartSvgViewer/images/favicon.ico",
+			"sizes": "16x16 32x32"
+		},
+		{
+			"src": "https://sla80.github.io/SmartSvgViewer/images/favicon.svg",
+			"type": "image/svg+xml",
+			"sizes": "36x36 48x48 57x57 60x60 64x64 72x72 76x76 96x96 114x114 120x120 128x128 144x144 152x152 167x167 180x180 192x192 256x256 512x512"
+		},
+	]
+}
