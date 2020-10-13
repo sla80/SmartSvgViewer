@@ -1,0 +1,42 @@
+{
+	"name": "Smart SVG Viewer",
+	"description": "Free SVG image viewer for Windows, with Thumbnail Gallery and Alpha channel support",
+    "background_color": "#2E9378",
+	"theme_color": "#2E9378",
+	"icons": [
+		{
+			"src": "/SmartSvgViewer/images/favicon512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "/SmartSvgViewer/images/favicon192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/SmartSvgViewer/images/favicon180.png",
+			"type": "image/png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "/SmartSvgViewer/images/favicon48.png",
+			"type": "image/png",
+			"sizes": "48x48"
+		},
+		{
+			"src": "/SmartSvgViewer/images/favicon32.png",
+			"type": "image/png",
+			"sizes": "32x32"
+		},
+		{
+			"src": "/SmartSvgViewer/images/favicon16.png",
+			"type": "image/png",
+			"sizes": "16x16"
+		},
+		{
+			"src": "/SmartSvgViewer/images/favicon.svg",
+			"type": "image/svg+xml"
+		}
+	]
+}

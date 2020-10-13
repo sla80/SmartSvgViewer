@@ -30,6 +30,11 @@ ym({{ site.yandex_metrika }}, "init", { clickmap:false, trackLinks:true, accurat
 <meta name="theme-color" content="#2E9378" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
-<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="{{ '/images/favicon.ico' | relative_url }}" />
+<link rel="manifest" type="application/json" href="{{ '/site.webmanifest' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/images/favicon16.png' | relative_url }}">
+<link rel="shortcut icon" sizes="16x16 32x32 48x48" href="{{ '/images/favicon.ico' | relative_url }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/favicon180.png' | relative_url }}">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{ '/images/favicon180p.png' | relative_url }}">
+<link rel="mask-icon" color="#2E9378" href="{{ '/images/faviconmono.svg' | relative_url }}">
 <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}" />
-<link rel="manifest" href="{{ '/manifest.webmanifest' | relative_url }}">
