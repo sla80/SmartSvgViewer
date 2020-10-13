@@ -15,28 +15,14 @@
 			"sizes": "192x192"
 		},
 		{
-			"src": "/SmartSvgViewer/images/favicon180.png",
-			"type": "image/png",
-			"sizes": "180x180"
-		},
-		{
 			"src": "/SmartSvgViewer/images/favicon48.png",
 			"type": "image/png",
 			"sizes": "48x48"
 		},
 		{
-			"src": "/SmartSvgViewer/images/favicon32.png",
-			"type": "image/png",
-			"sizes": "32x32"
-		},
-		{
-			"src": "/SmartSvgViewer/images/favicon16.png",
-			"type": "image/png",
-			"sizes": "16x16"
-		},
-		{
 			"src": "/SmartSvgViewer/images/favicon.svg",
-			"type": "image/svg+xml"
+			"type": "image/svg+xml",
+			"sizes": "1024x1024"
 		}
 	]
 }
