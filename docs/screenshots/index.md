@@ -1,5 +1,6 @@
 ---
 title: Screenshots
+description: “Smart SVG Viewer” application screenshots
 layout: default
 ---
 
