@@ -1,6 +1,6 @@
 {
 	"name": "Smart SVG Viewer",
-	"description": "Free SVG image viewer for Windows, with Thumbnail Gallery and Alpha channel support",
+	"description": "Free SVG image viewer for Windows, with Thumbnail Gallery and Transparency Grid",
     "background_color": "#2E9378",
 	"theme_color": "#2E9378",
 	"icons": [

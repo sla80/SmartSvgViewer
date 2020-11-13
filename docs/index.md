@@ -5,7 +5,7 @@ layout: front
 
 # Smart SVG Viewer
 
-“Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Alpha channel support. Made for everyone, but especially useful for UI/UX Designers, Web Designers, Graphic Designers.
+“Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Transparency Grid. Made for everyone, but especially useful for UI/UX Designers, Web Designers, Graphic Designers.
 
 ## [Download](/SmartSvgViewer/download/)
 
@@ -13,7 +13,7 @@ layout: front
 ### Features
 
 “Smart SVG Viewer” is an Alpha build, but it is already usable for viewing SVG images. Here is a list of its features (some are unique):
-- Shows SVG and SVGZ images with Alpha channel (transparency), correct pixel size, aspect ratio and scale.
+- Shows SVG and SVGZ images with Transparency Grid (alpha channel), correct size in pixels, aspect ratio and scale.
 - Thumbnail Gallery, Folder Tree, Quick Search box.
 - Supports High-DPI screens. The application window is scaled to match the screen DPI scale, but image preview and thumbnails renders on device physical pixels, at a higher resolution and perfectly sharp (no blurring).
 - Supports multi-screen systems. When you drag a window to another screen, it adapts to screen DPI.
@@ -52,9 +52,9 @@ As a UI/UX designer I often have to deal with SVG images at my job, and popular 
 
 Once again, I searched the entire Internet, and did not find a single SVG viewer with a thumbnail gallery for Windows. We have a relatively large company, and I asked my colleagues what software they use to view SVG files, and it turned out that everyone (even the artists who create the SVG images) use either browsers and graphics editors to view SVG images one by one. Nobody knew any tool that could display the SVG thumbnail gallery.
 
-That's why I decided to try making such an application myself. My minimum requirements for it were as follows: SVG image preview with Alpha channel and correct pixel size, thumbnail gallery, and displaying the dimensions of the picture. This was done in one weekend. Then I distributed it to my colleagues, started using it myself at work, and thought about what else is missing in this application. The search box was the first thing to add. It soon became clear that “Smart SVG Viewer” is much more convenient than “XnView”, which we use at work, and I decided that “Smart SVG Viewer” should be able to display all types of images, not just SVG.
+That's why I decided to try making such an application myself. My minimum requirements for it were as follows: SVG image preview with transparency grid and correct size in pixels, thumbnail gallery, and displaying the dimensions of the picture. This was done in one weekend. Then I distributed it to my colleagues, started using it myself at work, and thought about what else is missing in this application. The search box was the first thing to add. It soon became clear that “Smart SVG Viewer” is much more convenient than “XnView”, which we use at work, and I decided that “Smart SVG Viewer” should be able to display all types of images, not just SVG.
 
-When I started this project, it later turned out that the new “[XnView MP](https://www.xnview.com/en/xnviewmp/)” app can display SVG images almost acceptably, but it needs some tweaking, and it still doesn't show the Alpha channel on thumbnails, and “XnView MP” looks really terrible on a High-DPI screen. Therefore, I continued to develop my project.
+When I started this project, it later turned out that the new “[XnView MP](https://www.xnview.com/en/xnviewmp/)” app can display SVG images almost acceptably, but it needs some tweaking, and it still doesn't show the transparency grid on thumbnails, and “XnView MP” looks really terrible on a High-DPI screen. Therefore, I continued to develop my project.
 
 - - - -
 ### When will the source code be available?
