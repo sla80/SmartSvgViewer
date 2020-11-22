@@ -9,7 +9,15 @@
 <header class="page-intro">
   <h1 class="project-name">{{ site.title }}</h1>
   <h2 class="project-tagline">{{ site.description }}</h2>
-  <a href="#content" class="btn" id="smoothScrollToContent">Find Out More</a>
+  <p>
+    <a href="#content" id="smoothScrollToContentImg">
+    <picture>
+      <source srcset="{{ '/images/intro900.webp' | relative_url }}, {{ '/images/intro1800.webp' | relative_url }} 2x" type="image/webp" />
+      <img class="intro" src="{{ '/images/intro900.png' | relative_url }}" srcset="{{ '/images/intro1800.png' | relative_url }} 2x" />
+    </picture>
+    </a>
+  </p>
+  <a href="#content" class="btn" id="smoothScrollToContentBtn">Find Out More</a>
 </header>
 {% include content.html %}
 </body>

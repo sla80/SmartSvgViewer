@@ -18,31 +18,66 @@ h1 {
   font-weight: normal;
 }
 
-.main-content {
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: bold;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
 }
 
 @media screen and (min-width: 64em) {
   .page-header, .page-intro {
-    padding: 1rem 6rem;
+    padding: 1rem 0;
+  }
+  .project-name, .project-tagline {
+    padding-left:  6rem;
+    padding-right: 6rem;
   }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header, .page-intro {
-    padding: 1rem 4rem;
+    padding: 1rem 0;
+  }
+  .project-name, .project-tagline {
+    padding-left:  4rem;
+    padding-right: 4rem;
   }
 }
 
 @media screen and (max-width: 42em) {
   .page-header, .page-intro {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0;
+  }
+  .project-name, .project-tagline {
+    padding-left:  1rem;
+    padding-right: 1rem;
+  }
+  .btn {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  img.intro {
+    width: 900px;
+  }
+}
+
+@media screen and (min-width: 740px) and (max-width: 940px) {
+  img.intro {
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 560px) and (max-width: 740px) {
+  img.intro {
+    width: 520px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  img.intro {
+    width: 400px;
+    max-width: 95vw;
   }
 }
 
