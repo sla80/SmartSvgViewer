@@ -7,7 +7,7 @@ layout: front
 
 “Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Transparency Grid. Made for everyone, but especially useful for UI/UX Designers, Web Designers, Graphic Designers.
 
-## [Download](/SmartSvgViewer/download/)
+<a class="btn" href="{{ '/download/' | relative_url }}">Download</a>
 
 - - - -
 ### Features
@@ -18,7 +18,7 @@ layout: front
 - Supports High-DPI screens. The application window is scaled to match the screen DPI scale, but image preview and thumbnails renders on device physical pixels, at a higher resolution and perfectly sharp (no blurring).
 - Supports multi-screen systems. When you drag a window to another screen, it adapts to screen DPI.
 - Export to PNG, SVG, SVGZ formats. Optional resize and antialiasing in PNG export.
-- Lightweight. The executable file is now only {{ site.executable_filesize_kb }} KB in size (including the 24 KB icon). And the installer is an MSI file, {{ site.installer_filesize_kb }} KB.
+- Lightweight. The executable file is now only {{ site.executable_filesize_kb }} KB in size. And the installer is an MSI file, {{ site.installer_filesize_kb }} KB.
 - Automatic daily check for updates. One-click updates are downloaded, installed and launched in just a few seconds.
 - MIT License. Free of charge for personal and commercial use.
 

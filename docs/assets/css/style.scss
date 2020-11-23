@@ -18,8 +18,10 @@ h1 {
   font-weight: normal;
 }
 
-h2, h3, h4, h5, h6 {
-  font-weight: bold;
+.main-content {
+  h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
 }
 
 @media screen and (min-width: 64em) {
@@ -27,8 +29,7 @@ h2, h3, h4, h5, h6 {
     padding: 1rem 0;
   }
   .project-name, .project-tagline {
-    padding-left:  6rem;
-    padding-right: 6rem;
+    padding: 0 6rem;
   }
 }
 
@@ -37,8 +38,7 @@ h2, h3, h4, h5, h6 {
     padding: 1rem 0;
   }
   .project-name, .project-tagline {
-    padding-left:  4rem;
-    padding-right: 4rem;
+    padding: 0 4rem;
   }
 }
 
@@ -47,8 +47,7 @@ h2, h3, h4, h5, h6 {
     padding: 0.5rem 0;
   }
   .project-name, .project-tagline {
-    padding-left:  1rem;
-    padding-right: 1rem;
+    padding: 0 1rem;
   }
   .btn {
     width: 95%;
@@ -100,4 +99,21 @@ h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+.main-content .btn {
+  color: rgba(255,255,255,1.0);
+  background-color: rgba(46,147,120,1.0);
+  border-color: rgba(46,147,120,0.6);
+}
+.main-content .btn:hover {
+  color: rgba(255,255,255,1.0);
+  background-color: rgba(46,147,120,0.8);
+  border-color: rgba(46,147,120,0.6);
+}
 
+.btn > img, .btn > span {
+  vertical-align: middle;
+}
+.btn > img {
+  width: 1.5em;
+  height: 1.5em;
+}
