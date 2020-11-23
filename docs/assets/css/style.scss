@@ -98,6 +98,10 @@ h1 {
 .site-footer-owner {
   font-weight: normal;
 }
+.site-footer-credits > span {
+  vertical-align: middle;
+  color: #819198;
+}
 
 .main-content .btn {
   color: rgba(255,255,255,1.0);
@@ -110,10 +114,10 @@ h1 {
   border-color: rgba(46,147,120,0.6);
 }
 
-.btn > img, .btn > span {
+.btn > img, .btn > span, img.icon {
   vertical-align: middle;
 }
-.btn > img {
+.btn > img, img.icon {
   width: 1.5em;
   height: 1.5em;
 }
