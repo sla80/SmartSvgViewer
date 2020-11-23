@@ -9,7 +9,7 @@ Current version: {{ site.installer_version }}\
 Click here to download the MSI installation package:
 
 <a class="btn" href="{{ site.installer_url }}">
-  <img src="images/icon_download.svg" /><span> {{ site.installer_filename }} &nbsp;({{ site.installer_filesize_kb }} KB)</span>
+  <img src="{{ '/images/icon_download.svg' | relative_url }}" /><span> {{ site.installer_filename }} &nbsp;({{ site.installer_filesize_kb }} KB)</span>
 </a>
 
 - - - -
