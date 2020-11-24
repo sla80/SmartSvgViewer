@@ -32,7 +32,7 @@ Supported operating systems:
 ### Why create another image viewer?
 I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular viewers don't work:
 
-![Smart SVG Viewer vs Popular image viewers](https://github.com/sla80/SmartSvgViewer/blob/master/docs/images/comparison.png?raw=true)
+![Smart SVG Viewer vs Popular image viewers](https://github.com/sla80/SmartSvgViewer/blob/master/docs/images/comparison.webp?raw=true)
 
 [TEST.svg](https://github.com/sla80/SmartSvgViewer/blob/master/docs/images/TEST.svg) image content:
 ```xml

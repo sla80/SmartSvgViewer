@@ -6,5 +6,5 @@ layout: default
 
 # Screenshots
 
-![Smart SVG Viewer screenshot 1]({{ '/images/comparison.png' | relative_url }})
-<!-- <img src="/SmartSvgViewer/images/comparison.png" width="640" height="360"/> -->
+![Smart SVG Viewer screenshot 1]({{ '/images/comparison.webp' | relative_url }})
+<!-- <img src="/SmartSvgViewer/images/comparison.webp" width="640" height="360"/> -->

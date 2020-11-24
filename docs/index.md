@@ -35,7 +35,7 @@ layout: front
 ### Why create another image viewer?
 I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular viewers don't work:
 
-![“Smart SVG Viewer” vs Popular image viewers]({{ '/images/comparison.png' | relative_url }})
+![“Smart SVG Viewer” vs Popular image viewers]({{ '/images/comparison.webp' | relative_url }})
 
 [TEST.svg]({{ '/images/TEST.svg' | relative_url }}) image content:
 ```xml
