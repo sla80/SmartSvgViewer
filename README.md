@@ -16,8 +16,19 @@ Website: **[sla80.github.io/SmartSvgViewer](https://sla80.github.io/SmartSvgView
 - Lightweight. The executable file is < 100 KB in size. And the installer is an MSI file, < 500 KB.
 - Automatic daily check for updates. One-click updates are downloaded, installed and launched in just a few seconds.
 - MIT License. Free of charge for personal and commercial use.
-### Where can I get it?
-Download the MSI installer from “Smart SVG Viewer” website: [sla80.github.io/SmartSvgViewer](https://sla80.github.io/SmartSvgViewer/)
+### Future plans
+- Preferences window, Pop-up menus, keyboard Shortcuts, improved work with the Clipboard, many UI improvements, Dark theme, Batch Conversion, Image Comparison, configurable SVG Optimizer integration.
+- Obtain a certificate for signing the installer MSI package to get rid of the “Windows protected your PC” and/or “Unknown Publisher” warnings during installation.
+- Support SVG Fonts viewing. With ability to export selected glyphs as SVG of course.
+- Ability to view other image formats: PNG, GIF, JPEG, BMP, TGA, DDS, PSD, and maybe some new vector formats. That's it! SVG viewer will be a versatile full-featured image viewer.
+- Implement feature requests.
+### System Requirements
+Supported operating systems:
+- Windows 10 (May 2019 Update, or newer) or
+- Windows 7, 8, 8.1, 10 (older versions) with [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) (or newer) installed.
+### How to install
+- Download the MSI installation package from “Smart SVG Viewer” website: [sla80.github.io/SmartSvgViewer](https://sla80.github.io/SmartSvgViewer/).
+- Run it. If your Windows warns you that this MSI package has an “Unknown Publisher”, just skip this warning. If it shows а “Windows protected your PC” window, then click “More info” and “Run anyway” button. Soon I will receive a certificate for installer signing to make those warnings go away.
 ### Why create another image viewer?
 I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular viewers don't work:
 
@@ -32,19 +43,6 @@ I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular view
 </svg>
 ```
 
-### Future plans
-- Pop-up menus, Preferences window, many UI improvements, Dark theme, Batch Conversion, Image Comparison, and configurable SVG Optimizer integration.
-- Obtain a certificate for signing the installer MSI package to get rid of the “Windows protected your PC” and/or “Unknown Publisher” warnings during installation.
-- Support SVG Fonts viewing. With ability to export selected glyphs as SVG of course.
-- Ability to view other image formats: PNG, GIF, JPEG, BMP, TGA, DDS, PSD, and maybe some new vector formats. That's it! SVG viewer will be a versatile full-featured image viewer.
-- Implement feature requests.
-### System Requirements
-Supported operating systems:
-- Windows 10 (May 2019 Update, or newer) or
-- Windows 7, 8 .8.1, 10 (older versions) with [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) (or newer) installed.
-### How to install
-- Download the installation package [SmartSvgViewerSetup.msi](https://github.com/sla80/SmartSvgViewer/raw/master/SmartSvgViewerSetup.msi) (440 KB).
-- Install it. Your Windows will warn you that this MSI package has an “Unknown Publisher”, just skip this warning. Soon I will receive a certificate for installer signing to make this warning go away.
 ### How this project started
 As a UI/UX designer I often have to deal with SVG images at my job, and popular image viewers such as “[IrfanView](https://www.irfanview.com/)” and “[XnView](https://www.xnview.com/en/xnview/)” cannot display the SVG images properly. If you work with SVG files, then of course you are aware of this trouble. BTW, I reported this issue to the tech support of both of these viewers, as well as to the developer of the library they both use to render SVG.
 

@@ -16,7 +16,7 @@ Click here to download the MSI installation package:
 ### System Requirements
 Supported operating systems:
 - Windows 10 (May 2019 Update, or newer) or
-- Windows 7, 8 .8.1, 10 (older versions) with [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) (or newer) installed.
+- Windows 7, 8, 8.1, 10 (older versions) with [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) (or newer) installed.
 
 - - - -
 ### How to install
