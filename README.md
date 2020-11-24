@@ -1,6 +1,6 @@
 # Smart SVG Viewer
 “Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Transparency Grid. It is a must-have tool for UI/UX design, Web design, and graphic design.
-### [Go to Home page](https://sla80.github.io/SmartSvgViewer/)
+Website: **[sla80.github.io/SmartSvgViewer](https://sla80.github.io/SmartSvgViewer/)**
 
 ### Screenshot
 ![Smart SVG Viewer screenshot](https://github.com/sla80/SmartSvgViewer/blob/master/docs/images/intro1800.webp?raw=true)
@@ -15,6 +15,8 @@
 - Lightweight. The executable file is < 100 KB in size. And the installer is an MSI file, < 500 KB.
 - Automatic daily check for updates. One-click updates are downloaded, installed and launched in just a few seconds.
 - MIT License. Free of charge for personal and commercial use.
+### Where can I get it?
+Download the MSI installer from “Smart SVG Viewer” website: [sla80.github.io/SmartSvgViewer](https://sla80.github.io/SmartSvgViewer/)
 ### Why create another image viewer?
 I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular viewers don't work:
 
