@@ -1,7 +1,20 @@
 # Smart SVG Viewer
-“Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Transparency Grid. Made for everyone, but especially useful for UI/UX Designers, Web Designers, Graphic Designers.
+“Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Transparency Grid. It is a must-have tool for UI/UX design, Web design, and graphic design.
 ### [Go to Home page](https://sla80.github.io/SmartSvgViewer/)
 
+### Screenshot
+![Smart SVG Viewer screenshot](https://github.com/sla80/SmartSvgViewer/blob/master/docs/images/intro1800.webp?raw=true)
+
+### Features
+“Smart SVG Viewer” is an Alpha build, but it is already usable for viewing SVG images. Some of its features are unique:
+- Shows SVG and SVGZ images with Transparency Grid (alpha channel), correct size in pixels, aspect ratio and scale.
+- Thumbnail Gallery, Folder Tree, Quick Search box.
+- Supports High-DPI screens. The application window is scaled to match the screen DPI scale, but image preview and thumbnails renders on device physical pixels, at a higher resolution and perfectly sharp (no blurring).
+- Supports multi-screen systems. When you drag a window to another screen, it adapts to screen DPI.
+- Export to PNG, SVG, SVGZ formats. Optional resize and antialiasing in PNG export.
+- Lightweight. The executable file is < 100 KB in size. And the installer is an MSI file, < 500 KB.
+- Automatic daily check for updates. One-click updates are downloaded, installed and launched in just a few seconds.
+- MIT License. Free of charge for personal and commercial use.
 ### Why create another image viewer?
 I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular viewers don't work:
 
@@ -16,16 +29,6 @@ I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular view
 </svg>
 ```
 
-### Features
-“Smart SVG Viewer” is an Alpha build, but it is already usable for viewing SVG images. Here is a list of its features (some are unique):
-- Shows SVG and SVGZ images with Transparency Grid (alpha channel), correct size in pixels, aspect ratio and scale.
-- Thumbnail Gallery, Folder Tree, Quick Search box.
-- Supports High-DPI screens. The application window is scaled to match the screen DPI scale, but image preview and thumbnails renders on device physical pixels, at a higher resolution and perfectly sharp (no blurring).
-- Supports multi-screen systems. When you drag a window to another screen, it adapts to screen DPI.
-- Export to PNG, SVG, SVGZ formats. Optional resize and antialiasing in PNG export.
-- Lightweight. The executable file is now only 82 KB in size (including the 24 KB icon). And the installer is an MSI file, 440 KB.
-- Automatic daily check for updates. One-click updates are downloaded, installed and launched in just a few seconds.
-- MIT License. Free of charge for personal and commercial use.
 ### Future plans
 - Pop-up menus, Preferences window, many UI improvements, Dark theme, Batch Conversion, Image Comparison, and configurable SVG Optimizer integration.
 - Obtain a certificate for signing the installer MSI package to get rid of the “Windows protected your PC” and/or “Unknown Publisher” warnings during installation.

@@ -5,14 +5,14 @@ layout: front
 
 # Smart SVG Viewer
 
-“Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Transparency Grid. Made for everyone, but especially useful for UI/UX Designers, Web Designers, Graphic Designers.
+“Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Transparency Grid. It is a must-have tool for UI/UX design, Web design, and graphic design.
 
 <a class="btn" href="{{ '/download/' | relative_url }}">Download</a>
 
 - - - -
 ### Features
 
-“Smart SVG Viewer” is an Alpha build, but it is already usable for viewing SVG images. Here is a list of its features (some are unique):
+“Smart SVG Viewer” is an Alpha build, but it is already usable for viewing SVG images. Some of its features are unique:
 - Shows SVG and SVGZ images with Transparency Grid (alpha channel), correct size in pixels, aspect ratio and scale.
 - Thumbnail Gallery, Folder Tree, Quick Search box.
 - Supports High-DPI screens. The application window is scaled to match the screen DPI scale, but image preview and thumbnails renders on device physical pixels, at a higher resolution and perfectly sharp (no blurring).
