@@ -5,7 +5,7 @@ layout: front
 
 # Smart SVG Viewer
 
-“Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Transparency Grid. It is a must-have tool for UI/UX design, Web design, and graphic design.
+“Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Transparency Grid. It is a must-have tool for UI/UX design, Web design, and Graphic design.
 
 <a class="btn" href="{{ '/download/' | relative_url }}">Download</a>
 
@@ -25,7 +25,7 @@ layout: front
 - - - -
 ### Future plans
 
-- Pop-up menus, Preferences window, many UI improvements, Dark theme, Batch Conversion, Image Comparison, and configurable SVG Optimizer integration.
+- Preferences window, Pop-up menus, keyboard Shortcuts, improved work with the Clipboard, many UI improvements, Dark theme, Batch Conversion, Image Comparison, configurable SVG Optimizer integration.
 - Obtain a certificate for signing the installer MSI package to get rid of the “Windows protected your PC” and/or “Unknown Publisher” warnings during installation.
 - Support SVG Fonts viewing. With ability to export selected glyphs as SVG of course.
 - Ability to view other image formats: PNG, GIF, JPEG, BMP, TGA, DDS, PSD, and maybe some new vector formats. That's it! SVG viewer will be a versatile full-featured image viewer.

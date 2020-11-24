@@ -1,5 +1,5 @@
 # Smart SVG Viewer
-“Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Transparency Grid. It is a must-have tool for UI/UX design, Web design, and graphic design.
+“Smart SVG Viewer” is a free, fast and convenient SVG image viewer with Thumbnail Gallery and Transparency Grid. It is a must-have tool for UI/UX design, Web design, and Graphic design.
 
 Website: **[sla80.github.io/SmartSvgViewer](https://sla80.github.io/SmartSvgViewer/)**
 
