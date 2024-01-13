@@ -12,6 +12,7 @@
   <p>
     <a href="#content" id="smoothScrollToContentImg">
     <picture>
+      <source srcset="{{ '/images/intro900.avif' | relative_url }}, {{ '/images/intro1800.avif' | relative_url }} 2x" type="image/avif" />
       <source srcset="{{ '/images/intro900.webp' | relative_url }}, {{ '/images/intro1800.webp' | relative_url }} 2x" type="image/webp" />
       <img class="intro" src="{{ '/images/intro900.png' | relative_url }}" srcset="{{ '/images/intro1800.png' | relative_url }} 2x" />
     </picture>
