@@ -5,7 +5,7 @@ layout: default
 ---
 
 # Download
-Current version: {{ site.installer_version }}\
+Current version: {{ site.installer_version }} - [Changelog](/SmartSvgViewer/changelog/)\
 Click here to download the MSI installation package:
 
 <a class="btn" href="{{ site.installer_url }}">

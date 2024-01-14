@@ -21,9 +21,11 @@ Website: **[sla80.github.io/SmartSvgViewer](https://sla80.github.io/SmartSvgView
 - Preferences window, Pop-up menus, improved work with the Clipboard, many UI improvements, Dark theme, Batch Conversion, Image Comparison, configurable SVG Optimizer integration.
 - Obtain a certificate for signing the installer MSI package to get rid of the “Windows protected your PC” and/or “Unknown Publisher” warnings during installation.
 - Support SVG Fonts viewing. With ability to export selected glyphs as SVG of course.
+
+Changelog is [here](https://sla80.github.io/SmartSvgViewer/changelog/)
 ### System Requirements
 Supported operating systems:
-- Windows 10 (May 2019 Update, or newer) or
+- Windows 11, 10 (May 2019 Update, or newer) or
 - Windows 7, 8, 8.1, 10 (older versions) with [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) installed.
 ### How to install
 - Download the MSI installation package from “Smart SVG Viewer” website: [sla80.github.io/SmartSvgViewer](https://sla80.github.io/SmartSvgViewer/).
@@ -53,4 +55,4 @@ When I started this project, it later turned out that the new “[XnView MP](htt
 ### When will the source code be available?
 Probably soon, after some code refactoring. For this purpose, I have already switched to [MS-PL license](https://raw.githubusercontent.com/sla80/SmartSvgViewer/master/LICENSE) to be able to distribute not only the compiled binaries, but also the source code. Because it was required by the license of [SVG.NET library](https://github.com/svg-net/SVG), which is a fork of a library developed by Microsoft and is released under the [MS-PL license](https://raw.githubusercontent.com/svg-net/SVG/master/license.txt).
 ### Feature requests
-Requests for new features are accepted! If you need something to be added or improved, just contact me or fill a GitHub Issue. If your request is not too difficult to implement, I will try to do it ASAP.
+Requests for new features are [accepted](https://github.com/sla80/SmartSvgViewer/issues)! If you need something to be added or improved, just contact me or fill a GitHub Issue. If your request is not too difficult to implement, I will try to do it ASAP.

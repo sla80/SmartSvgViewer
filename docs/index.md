@@ -30,6 +30,8 @@ layout: front
 - Obtain a certificate for signing the installer MSI package to get rid of the “Windows protected your PC” and/or “Unknown Publisher” warnings during installation.
 - Support SVG Fonts viewing. With ability to export selected glyphs as SVG of course.
 
+Changelog is [here](/SmartSvgViewer/changelog/)
+
 - - - -
 ### Why create another image viewer?
 I couldn't find any working SVG viewer with Thumbnail Gallery. Most popular viewers don't work:
@@ -63,4 +65,4 @@ Probably soon, after some code refactoring. For this purpose, I have already swi
 - - - -
 ### Feature requests
 
-Requests for new features are accepted! If you need something to be added or improved, just contact me or fill a GitHub Issue. If your request is not too difficult to implement, I will try to do it ASAP.
+Requests for new features are [accepted](https://github.com/sla80/SmartSvgViewer/issues)! If you need something to be added or improved, just contact me or fill a GitHub Issue. If your request is not too difficult to implement, I will try to do it ASAP.
