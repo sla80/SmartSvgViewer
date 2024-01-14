@@ -18,18 +18,17 @@ layout: front
 - Supports High-DPI screens. The application window is scaled to match the screen DPI scale, but image preview and thumbnails renders on device physical pixels, at a higher resolution and perfectly sharp (no blurring).
 - Supports multi-screen systems. When you drag a window to another screen, it adapts to screen DPI.
 - Export to PNG, SVG, SVGZ formats. Optional resize and antialiasing in PNG export.
-- Lightweight. The executable file is now only {{ site.executable_filesize_kb }} KB in size. And the installer is an MSI file, {{ site.installer_filesize_kb }} KB.
-- Automatic daily check for updates. One-click updates are downloaded, installed and launched in just a few seconds.
-- MIT License. Free of charge for personal and commercial use.
+- Lightweight. The executable file is just {{ site.executable_filesize_kb }} KB in size. And the installer is an MSI file, {{ site.installer_filesize_kb }} KB.
+- Automatic check for updates. One-click updates are downloaded, installed and launched in just a few seconds.
+- MS-PL License. Free for personal and commercial use.
 
 - - - -
 ### Future plans
 
-- Preferences window, Pop-up menus, keyboard Shortcuts, improved work with the Clipboard, many UI improvements, Dark theme, Batch Conversion, Image Comparison, configurable SVG Optimizer integration.
+- Implement your feature requests.
+- Preferences window, Pop-up menus, improved work with the Clipboard, many UI improvements, Dark theme, Batch Conversion, Image Comparison, configurable SVG Optimizer integration.
 - Obtain a certificate for signing the installer MSI package to get rid of the “Windows protected your PC” and/or “Unknown Publisher” warnings during installation.
 - Support SVG Fonts viewing. With ability to export selected glyphs as SVG of course.
-- Ability to view other image formats: PNG, GIF, JPEG, BMP, TGA, DDS, PSD, and maybe some new vector formats. That's it! SVG viewer will be a versatile full-featured image viewer.
-- Implement feature requests.
 
 - - - -
 ### Why create another image viewer?
@@ -59,7 +58,7 @@ When I started this project, it later turned out that the new “[XnView MP](htt
 - - - -
 ### When will the source code be available?
 
-After the Alpha or Beta phase. As you probably know, the [MIT license](/SmartSvgViewer/license/) allows the author to distribute compiled binaries without source code. Before releasing the source code, I need to find a suitable replacement for a core component of this app, [SVG.NET library](https://github.com/vvvv/SVG), which is a fork of a library developed by Microsoft and is released under the [Ms-PL license](https://raw.githubusercontent.com/vvvv/SVG/master/license.txt). The Ms-PL license allows me to release compiled binaries under any compatible livense (like MIT license), but distribution of the source code is ONLY allowed under the Ms-PL license. Therefore, I can't release the source code under the MIT license right now, but I don't want to release it under the Ms-PL license either. I want to keep the MIT license for this project, so I am looking for a replacement for the SVG.NET library. If you know a good similar library, please suggest, I will test it. I'm going to search for such a library after the Alpha or Beta phase, closer to version 1.0.
+Probably soon, after some code refactoring. For this purpose, I have already switched to [MS-PL license](/SmartSvgViewer/license/) to be able to distribute not only the compiled binaries, but also the source code. Because it was required by the license of [SVG.NET library](https://github.com/svg-net/SVG), which is a fork of a library developed by Microsoft and is released under the [MS-PL license](https://raw.githubusercontent.com/svg-net/SVG/master/license.txt).
 
 - - - -
 ### Feature requests
