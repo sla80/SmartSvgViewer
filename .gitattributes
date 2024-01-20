@@ -1,0 +1,9 @@
+# This is for ignoring files in GitHub Release auto-generated archives.
+# For testing, commit it and do: git archive master -o latest.zip
+
+.git* export-ignore
+docs export-ignore
+*.md export-ignore
+*.msi export-ignore
+*.xml export-ignore
+*.txt export-ignore
