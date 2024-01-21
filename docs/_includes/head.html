@@ -9,9 +9,10 @@ gtag('config', '{{ site.google_analytics }}');
 </script>
 {% endif %}
 {% if site.yandex_metrika %}
-<script>
+<script type="text/javascript">
 (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+m[i].l=1*new Date(); for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
 (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 ym({{ site.yandex_metrika }}, "init", { clickmap:false, trackLinks:true, accurateTrackBounce:true });
 </script>

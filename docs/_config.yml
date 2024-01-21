@@ -11,7 +11,7 @@ summary_image:
 baseurl: /SmartSvgViewer
 html_lang: en
 yandex_metrika: 67783888
-google_analytics: UA-179561008-1
+google_analytics: G-KPN9LS8Y8V
 
 include:
   - sitemap.xml
