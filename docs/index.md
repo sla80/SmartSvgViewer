@@ -18,7 +18,7 @@ layout: front
 - Supports High-DPI screens. The application window is scaled to match the screen DPI scale, but image preview and thumbnails renders on device physical pixels, at a higher resolution and perfectly sharp (no blurring).
 - Supports multi-screen systems. When you drag a window to another screen, it adapts to screen DPI.
 - Export to PNG, SVG, SVGZ formats. Optional resize and antialiasing in PNG export.
-- Lightweight. The executable file is just {{ site.executable_filesize_kb }} KB in size. And the installer is an MSI file, {{ site.installer_filesize_kb }} KB.
+- Lightweight. The executable file is just {{ site.executable_filesize_kb }} KB in size. And the installer is an MSI file, {{ site.installer_filesize_kb_x64 }} KB.
 - Automatic check for updates. One-click updates are downloaded, installed and launched in just a few seconds.
 - MS-PL License. Free for personal and commercial use.
 
