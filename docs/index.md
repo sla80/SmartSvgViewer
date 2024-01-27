@@ -19,14 +19,16 @@ layout: front
 - Supports multi-screen systems. When you drag a window to another screen, it adapts to screen DPI.
 - Export to PNG, SVG, SVGZ formats. Optional resize and antialiasing in PNG export.
 - Lightweight. The executable file is just {{ site.executable_filesize_kb }} KB in size. And the installer is an MSI file, {{ site.installer_filesize_kb_x64 }} KB.
+- Native builds for x64 and ARM64 systems.
 - Automatic check for updates. One-click updates are downloaded, installed and launched in just a few seconds.
 - MS-PL License. Free for personal and commercial use.
 
 - - - -
 ### Future plans
 
-- Implement your feature requests.
-- Preferences window, Pop-up menus, improved work with the Clipboard, many UI improvements, Dark theme, Batch Conversion, Image Comparison, configurable SVG Optimizer integration.
+- Implement your [feature requests](https://github.com/sla80/SmartSvgViewer/issues).
+- Preferences window, Pop-up menus, preview zoom, UI/UX improvements, improved work with the Clipboard.
+- Dark theme, Batch Conversion, Image Comparison, configurable SVG Optimizer integration.
 - Obtain a certificate for signing the installer MSI package to get rid of the “Windows protected your PC” and/or “Unknown Publisher” warnings during installation.
 - Support SVG Fonts viewing. With ability to export selected glyphs as SVG of course.
 

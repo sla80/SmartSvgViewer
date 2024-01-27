@@ -8,12 +8,12 @@ layout: default
 
 ### Update 0.5.0.1645 (2024-01-21)
 
-Starting with this release, only Windows 11 and Windows 10 are supported, and only 64-bit versions of Windows. If any of you are still using older versions of Windows (32-bit versions, or Windows 7/8/8.1), then please write an [issue](https://github.com/sla80/SmartSvgViewer/issues) and I will add a build for these older systems too.
+Starting with this release, only Windows 11 and Windows 10 are supported, and only 64-bit versions of Windows. If any of you are still using older versions of Windows (32-bit versions, or Windows 7/8/8.1), then please write a [request](https://github.com/sla80/SmartSvgViewer/issues) and I will add a build for these older systems too.
 - App has been updated to .NET Framework 4.8.1, and the installer has been updated to WiX 4.0.
 - Separate installers have been made with native builds for x64 (Intel, AMD) and ARM64 (Qualcomm) systems.
-- Added a native build for ARM64 processor architecture ([issue #5](https://github.com/sla80/SmartSvgViewer/issues/5)).
-- The open folder dialog has been replaced with a modern one, similar to the open file dialog ([issue #4](https://github.com/sla80/SmartSvgViewer/issues/4)).
-- Added the ability to sort files in the thumbnail gallery by file size or modification date, see menu "View" / "Sort By" ([issue #2](https://github.com/sla80/SmartSvgViewer/issues/2)).
+- Added a native build for ARM64 processor architecture ([request #5](https://github.com/sla80/SmartSvgViewer/issues/5)).
+- The Open Folder dialog has been replaced with a modern one, similar to the Open File dialog ([request #4](https://github.com/sla80/SmartSvgViewer/issues/4)).
+- Added the ability to sort files in the thumbnail gallery by File Size or Modification Date, see menu "View" / "Sort By" ([request #2](https://github.com/sla80/SmartSvgViewer/issues/2)).
 - Other minor fixes and improvements.
 
 ### Update 0.5.0.1520 (2024-01-14)
