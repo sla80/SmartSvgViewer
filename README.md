@@ -27,8 +27,8 @@ Website: **[sla80.github.io/SmartSvgViewer](https://sla80.github.io/SmartSvgView
 Changelog is [here](https://sla80.github.io/SmartSvgViewer/changelog/)
 ### System Requirements
 Supported operating systems:
-- Windows 11, 10 (May 2019 Update, or newer) or
-- Windows 7, 8, 8.1, 10 (older versions) with [.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) installed.
+- Windows 11 64-bit (version 22H2, or newer) or
+- Windows 10 64-bit, Windows 11 64-bit (older versions) with [.NET Framework 4.8.1 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) installed.
 ### How to install
 - Download the MSI installation package from “Smart SVG Viewer” website: [sla80.github.io/SmartSvgViewer](https://sla80.github.io/SmartSvgViewer/).
 - Run it. If your Windows warns you that this MSI package has an “Unknown Publisher”, just skip this warning. If it shows а “Windows protected your PC” window, then click “More info” and “Run anyway” button. Soon I will receive a certificate for installer signing to make those warnings go away.
