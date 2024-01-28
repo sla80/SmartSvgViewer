@@ -6,12 +6,6 @@ layout: default
 
 # Changelog
 
-### Update 0.5.0.1685 (2024-01-28)
-
-- Now, if you select multiple (!) images in the gallery (using Ctrl+Click or Shift+Click), and then Right-Click on any of them, then a Windows Explorer will open, with all these multiple SVG files selected. So you can perform actions on multiple files in Explorer - Copy, Cut, Delete. etc. ([request #3](https://github.com/sla80/SmartSvgViewer/issues/3)).
-- Fixed a bug in the preview, when under certain rare conditions, the image could be displayed in the wrong aspect ratio, or not displayed at all.
-- Other minor fixes and improvements.
-
 ### Update 0.5.0.1645 (2024-01-21)
 
 Starting with this release, only Windows 11 and Windows 10 are supported, and only 64-bit versions of Windows. If any of you are still using older versions of Windows (32-bit versions, or Windows 7/8/8.1), then please write a [request](https://github.com/sla80/SmartSvgViewer/issues) and I will add a build for these older systems too.
