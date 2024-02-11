@@ -23,8 +23,9 @@ For Intel or AMD processor, choose x64, and for Qualcomm processor, choose ARM64
 - - - -
 ### System Requirements
 Supported operating systems:
-- Windows 11 64-bit (version 22H2, or newer) or
-- Windows 10 64-bit, Windows 11 64-bit (older versions) with [.NET Framework 4.8.1 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) installed.
+- Windows 11 64-bit (version 22H2, or newer)
+- Windows 11 64-bit (older versions) with [.NET Framework 4.8.1 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) installed.
+- Windows 10 64-bit with [.NET Framework 4.8.1 Runtime](https://dotnet.microsoft.com/download/dotnet-framework) installed.
 
 - - - -
 ### How to install
