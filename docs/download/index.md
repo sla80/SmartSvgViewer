@@ -5,7 +5,7 @@ layout: default
 ---
 
 # Download
-Current version: {{ site.installer_version_visual }} - [Changelog](/SmartSvgViewer/changelog/)
+Current version: {{ site.installer_version_visual }} - [Changelog](/SmartSvgViewer/changelog/)\
 Download the MSI installation package here:
 
 <a class="btn" href="https://github.com/sla80/SmartSvgViewer/releases/download/v{{ site.installer_version }}/{{ site.installer_filename_x64 }}">
