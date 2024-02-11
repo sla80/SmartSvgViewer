@@ -15,7 +15,7 @@ Click here to download the MSI installation package:
 
 <a class="btn" href="https://github.com/sla80/SmartSvgViewer/releases/download/v{{ site.installer_version }}/{{ site.installer_filename_arm64 }}">
   <img class="dl" src="{{ '/images/icon_download.svg' | relative_url }}" />
-  <span class="dl">{{ site.installer_filename_arm64 }}&nbsp;&nbsp;({{ site.installer_filesize_kb_arm64 }} KB)<br/><i>For x64 systems</i></span>
+  <span class="dl">{{ site.installer_filename_arm64 }}&nbsp;&nbsp;({{ site.installer_filesize_kb_arm64 }} KB)<br/><i>For ARM64 systems</i></span>
 </a>
 
 For Intel or AMD processor, choose x64 build, and for Qualcomm processor, choose ARM64 build. If you don't know what processor you have, then choose x64.
