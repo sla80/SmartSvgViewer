@@ -114,10 +114,30 @@ h1 {
   border-color: rgba(46,147,120,0.6);
 }
 
-.btn > img, .btn > span, img.icon {
+img.icon {
   vertical-align: middle;
-}
-.btn > img, img.icon {
   width: 1.5em;
   height: 1.5em;
+}
+
+.btn > img {
+  vertical-align: middle;
+  width: 1.5em;
+  height: 1.5em;
+}
+.btn > span {
+  vertical-align: middle;
+}
+
+.btn > img.dl {
+  float: left;
+  margin: 0.55em 0.75em 0 -0.2em;
+}
+.btn > span.dl {
+  display: block;
+  min-width: 24em;
+}
+.btn > span.dl > i {
+  font-style: normal;
+  font-size: 0.75em;
 }

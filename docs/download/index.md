@@ -9,15 +9,16 @@ Current version: {{ site.installer_version_visual }} - [Changelog](/SmartSvgView
 Click here to download the MSI installation package:
 
 <a class="btn" href="https://github.com/sla80/SmartSvgViewer/releases/download/v{{ site.installer_version }}/{{ site.installer_filename_x64 }}">
-  <img src="{{ '/images/icon_download.svg' | relative_url }}" /><span> {{ site.installer_filename_x64 }} &nbsp;({{ site.installer_filesize_kb_x64 }} KB) — for x64 systems</span>
+  <img class="dl" src="{{ '/images/icon_download.svg' | relative_url }}" />
+  <span class="dl">{{ site.installer_filename_x64 }}&nbsp;&nbsp;({{ site.installer_filesize_kb_x64 }} KB)<br/><i>For x64 systems</i></span>
 </a>
 
 <a class="btn" href="https://github.com/sla80/SmartSvgViewer/releases/download/v{{ site.installer_version }}/{{ site.installer_filename_arm64 }}">
-  <img src="{{ '/images/icon_download.svg' | relative_url }}" /><span> {{ site.installer_filename_arm64 }} &nbsp;({{ site.installer_filesize_kb_arm64 }} KB) — for ARM64 systems</span>
+  <img class="dl" src="{{ '/images/icon_download.svg' | relative_url }}" />
+  <span class="dl">{{ site.installer_filename_arm64 }}&nbsp;&nbsp;({{ site.installer_filesize_kb_arm64 }} KB)<br/><i>For x64 systems</i></span>
 </a>
 
-For Intel or AMD processor, choose x64 build, and for Qualcomm processor, choose ARM64 build.
-If you don't know what processor you have, then choose x64.
+For Intel or AMD processor, choose x64 build, and for Qualcomm processor, choose ARM64 build. If you don't know what processor you have, then choose x64.
 
 - - - -
 ### System Requirements
