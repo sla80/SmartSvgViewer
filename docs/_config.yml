@@ -18,11 +18,11 @@ include:
   - robots.txt
   - site.webmanifest
 
-installer_version: 0.5.0.1685
-installer_version_visual: 0.5.0 alpha (build 1685)
-executable_filesize_kb: 138
-installer_filesize_kb_x64: 728
-installer_filesize_kb_arm64: 724
+installer_version: 0.5.0.1715
+installer_version_visual: 0.5.0 alpha (build 1715)
+executable_filesize_kb: 140
+installer_filesize_kb_x64: 724
+installer_filesize_kb_arm64: 720
 
 installer_filename_x64: SmartSvgViewerSetup_x64.msi
 installer_filename_arm64: SmartSvgViewerSetup_ARM64.msi

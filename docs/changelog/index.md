@@ -6,6 +6,12 @@ layout: default
 
 # Changelog
 
+### Update 0.5.0.1715 (2024-02-11)
+
+- Added transparency grid settings. You can change its Color (Light, Medium, Dark) and Size (Small, Medium, Large). See menu "View" / "Transparency Grid".
+- The SVG.NET rendering library version has been downgraded from 3.4.6 to a more stable version 3.4.4, which is capable of rendering more SVG files ([request #6](https://github.com/sla80/SmartSvgViewer/issues/6)).
+- Other minor fixes and improvements.
+
 ### Update 0.5.0.1685 (2024-01-28)
 
 - Now, if you select multiple (!) images in the gallery (using Ctrl+Click or Shift+Click), and then Right-Click on any of them, then a Windows Explorer will open, with all these multiple SVG files selected. So you can perform actions on multiple files in Explorer - Copy, Cut, Delete. etc. ([request #3](https://github.com/sla80/SmartSvgViewer/issues/3)).
